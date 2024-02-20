@@ -13,7 +13,6 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const auth_module_1 = require("./auth/auth.module");
 const admin_module_1 = require("./admin/admin.module");
-const posts_module_1 = require("./posts/posts.module");
 const bank_module_1 = require("./bank/bank.module");
 const token_module_1 = require("./token/token.module");
 const bank_whook_module_1 = require("./bank-whook/bank-whook.module");
@@ -26,7 +25,6 @@ exports.AppModule = AppModule = __decorate([
             mongoose_1.MongooseModule.forRoot("mongodb+srv://test_education:Fm5xGy5NlfsDXhu0@cluster0.svrxsep.mongodb.net/teplo"),
             auth_module_1.AuthModule,
             admin_module_1.AdminModule,
-            posts_module_1.PostsModule,
             bank_module_1.BankModule,
             token_module_1.TokenModule,
             bank_whook_module_1.BankWebHookModule,

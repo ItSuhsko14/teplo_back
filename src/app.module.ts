@@ -16,7 +16,7 @@ import { BankWebHookModule } from "./bank-whook/bank-whook.module";
     ),
     AuthModule,
     AdminModule,
-    PostsModule,
+    // PostsModule,
     BankModule,
     TokenModule,
     BankWebHookModule,

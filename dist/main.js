@@ -12,7 +12,7 @@ async function bootstrap() {
         prefix: "/upload",
     });
     app.enableCors({
-        origin: ["*", "http://localhost:3000"],
+        origin: ["*", "http://localhost:3000", "https://subtle-rabanadas-560bb7.netlify.app/admin/"],
         methods: "GET,PUT,POST,DELETE",
         allowedHeaders: "Content-Type, Authorization",
     });
@@ -24,7 +24,7 @@ async function bootstrap() {
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, config);
     swagger_1.SwaggerModule.setup("api", app, document);
-    await app.listen(3000);
+    await app.listen(5000);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
